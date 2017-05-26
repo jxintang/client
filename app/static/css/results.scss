@@ -1,0 +1,85 @@
+// @Author: tangjingxin <tangduck>
+// @Date:   03/09/2017
+// @Email:  jxintang@gmail.com
+// @Last modified by:   tangduck
+// @Last modified time: 04/18/2017
+
+.result-group {
+    background-color: #fff;
+    padding-left: 15px;
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 10px;
+    .clearfix {
+        clear: both;
+    }
+    .result-head {
+        padding: 10px 15px 10px 0;
+        .tl,.bl {
+            width: 76%;
+            float: left;
+        }
+        .tr,.br {
+            width: 24%;
+            float: right;
+            text-align: right;
+        }
+        .tl {
+            color: #4F4F4F;
+            margin-bottom: 10px;
+            span {
+                font-size: 14px;
+            }
+        }
+        .br {
+            color: #36AFEF;
+        }
+        .result-title {
+            font-size: 16px;
+            font-weight: bold;
+        }
+    }
+    .result-item {
+        display: block;
+        padding: 10px 0;
+        border-top: 1px solid #DEDEDE;
+        background-color: #fff;
+        color: #666;
+        .result-item-row {
+            padding-right: 15px;
+            table {
+                float: left;
+                tr td {
+                    text-align: left;
+                }
+                tr td:first-child {
+                    text-align: right;
+                }
+            }
+            .fr {
+                float: right;
+            }
+            .follow-btn {
+                transform: translateY(50%);
+                border: none;
+                width: 68px;
+                text-align: center;
+                padding: 0;
+                background-color: #AD2323;
+                border-radius: 2px;
+                font-size: 12px;
+                height: 29px;
+                line-height: 29px;
+                color: #fff;
+            }
+        }
+    }
+}
+.results-by-id {
+    .am-list-body {
+        border-top: none;
+        .list-view-section-body {
+            padding-left: 0;
+        }
+    }
+}

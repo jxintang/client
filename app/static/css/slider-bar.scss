@@ -1,0 +1,29 @@
+/**
+ * created by jxintang on 3/1/17.
+ */
+
+.slide-bar {
+    background-color: #fff;
+    .slide-item {
+        display: inline-block;
+        width: 50%;
+        padding: 10px 0;
+        font-size: 14px;
+        color: #4F4F4F;
+        position: relative;
+        text-align: center;
+        &.active {
+            color: #AD2323;
+            i {
+                display: inline-block;
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                margin-left: -15px;
+                width: 30px;
+                height: 2px;
+                background-color: #AD2323;
+            }
+        }
+    }
+}

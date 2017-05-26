@@ -1,0 +1,204 @@
+// @Author: tangjingxin <jxintang>
+// @Date:   03/20/2017
+// @Email:  jxintang@gmail.com
+// @Last modified by:   tangduck
+// @Last modified time: 04/26/2017
+
+.me-wrapper {
+    .info-wrapper {
+        margin: 60px 0 15px;
+        background-color: #fff;
+        padding-bottom: 15px;
+        .card-box {
+            background-color: #FFFDF5;
+            border: 1px solid #CCCCCC;
+            padding: 12px 15px;
+            margin: 15px;
+            table.top {
+                color: #666;
+                font-size: 12px;
+                h3 {
+                    margin: 0;
+                    margin-bottom: 10px;
+                    font-weight: bold;
+                    font-size: 18px;
+                    color: #4F4F4F;
+                }
+                i.zhai-logo {
+                    display: inline-block;
+                    width: 123px;
+                    height: 38px;
+                    background: url(/static/images/zhai-logo-icon@2x.png) no-repeat 0 0;
+                    background-size: 123px 38px;
+                }
+            }
+            .seperator {
+                width: 100%;
+                height: 1px;
+                background-color: #CCC;
+            }
+            table.bottom,
+            table.top {
+                width: 100%;
+                font-size: 13px;
+                color: #666;
+                tbody {
+                    td {
+                        padding: 5px 0;
+                    }
+                    td:first-child {
+                        text-align: left;
+                    }
+                    td:last-child {
+                        text-align: right;
+                    }
+                }
+            }
+        }
+        .am-list-item img {
+            width: 44px;
+            height: 44px;
+        }
+    }
+    .auth-wrapper {
+        position: relative;
+        margin: 60px 0 30px;
+        padding: 30px 0;
+        background-color: #fff;
+        text-align: center;
+        .img-wrapper {
+            width: 100vw;
+            height: 61.25vw;
+            position: relative;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center center;
+            background-color: #eee;
+            .img-mask {
+                position: absolute;
+                height: 28px;
+                line-height: 28px;
+                bottom: 0;
+                right: 0;
+                left: 0;
+                background-color: rgba(0,0,0,.4);
+                color: #fff;
+                text-align: center;
+            }
+        }
+        p {
+            text-align: center;
+            color: #666;
+            font-size: 15px;
+            margin: 0 0 10px 0;
+        }
+        .auth-box {
+            position: relative;
+            i {
+                display: inline-block;
+                width: 73px;
+                height: 20px;
+                position: absolute;
+                top: -10px;
+                left: 20px;
+            }
+            i.authing-icon {
+                background: url(/static/images/authing-icon@2x.png) no-repeat 0 0;
+                background-size: 73px 20px;
+            }
+            i.auth-failed-icon {
+                background: url(/static/images/auth-failed-icon@2x.png) no-repeat 0 0;
+                background-size: 73px 20px;
+            }
+            img {
+                margin-top: 20px;
+            }
+        }
+    }
+    .btn {
+        position: relative;
+        margin: 0 35px;
+        border-radius: 1px;
+    }
+    .red-btn {
+        border: 1px solid #AD2323;
+        background-color: #AD2323;
+    }
+    .file-upload {
+        font-size: 0;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        bottom: 0px;
+    }
+    .info {
+        margin-top: 10px;
+        background-color: #fff;
+        padding: 5px 0;
+        p {
+            width: 170px;
+            margin: 10px auto;
+            text-align: left;
+            color: #666;
+            font-size: 12px;
+        }
+    }
+}
+.me-detail {
+    margin-top: 60px;
+    background-color: #fff;
+    padding-top: 15px;
+    text-align: center;
+    i.head {
+        display: inline-block;
+        width: 44px;
+        height: 44px;
+        background: url(/build/static/images/head-portrait-icon@2x.png) no-repeat 0 0;
+        background-size: 44px 44px;
+    }
+    h6.nick-name {
+        font-size: 15px;
+        color: #666;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    .am-list-item .am-list-line .am-list-extra {
+        -webkit-flex-basis: 50%;
+        -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    }
+}
+.my-creditor-list-box {
+    .my-creditor-item {
+        .am-list-item {
+            border-bottom: 1px solid #dedede;
+        }
+        &:last-child {
+            .am-list-item {
+                border-bottom: none;
+            }
+        }
+    }
+    .fixed-handler-box {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 8px 0;
+        text-align: center;
+        z-index: 9999;
+        background-color: #F6F6F6;
+        border-top: #ccc;
+        .btn {
+            background-color: #fff;
+            border-radius: 1px;
+            color: #666;
+            border: 1px solid #ccc;
+            &.btn-red {
+                color: #AD2323;
+                border: 1px solid #AD2323;
+            }
+        }
+    }
+}

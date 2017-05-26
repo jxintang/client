@@ -1,0 +1,30 @@
+// @Author: tangjingxin <tangduck>
+// @Date:   04/11/2017
+// @Email:  jxintang@gmail.com
+// @Last modified by:   tangduck
+// @Last modified time: 04/11/2017
+
+.like-list-item {
+    background-color: #fff;
+    border-bottom: 1px solid #dedede;
+    .fl {
+        float: left;
+    }
+    .fr {
+        padding: 8px 15px;
+        float: right;
+    }
+    .follow-btn {
+        transform: translateY(50%);
+        border: none;
+        width: 68px;
+        text-align: center;
+        padding: 0;
+        background-color: #AD2323;
+        border-radius: 2px;
+        font-size: 12px;
+        height: 29px;
+        line-height: 29px;
+        color: #fff;
+    }
+}

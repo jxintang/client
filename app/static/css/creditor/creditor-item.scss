@@ -1,0 +1,46 @@
+.creditor-wrapper {
+    .swiper-wrapper {
+        padding-bottom: 40px;
+    }
+    .swiper-slide {
+        // margin: 0 3%;
+        // width: 94%;
+    }
+}
+
+.creditor-item {
+    background-color: #F6F6F6;
+    color: #666;
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+    .creditor-header {
+        text-align: left;
+        font-size: 14px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #DEDEDE;
+    }
+    .creditor-content {
+        padding-top: 10px;
+        table {
+            width: 100%;
+            td {
+                padding: 2px 0;
+            }
+            td:last-child {
+                text-align: right;
+            }
+            td:first-child {
+                text-align: left;
+            }
+            margin-bottom: 10px;
+        }
+        .button {
+            display: inline-block;
+            color: #fff;
+            padding: 7px 38px;
+            border-radius: 2px;
+            background-color: #AD2323;
+        }
+    }
+}

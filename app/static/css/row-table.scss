@@ -1,0 +1,57 @@
+// @Author: tangjingxin <tangduck>
+// @Date:   03/17/2017
+// @Email:  jxintang@gmail.com
+// @Last modified by:   tangduck
+// @Last modified time: 04/20/2017
+
+.row-table {
+    width: 100%;
+    background-color: #fff;
+    tbody {
+        color: #666;
+        font-size: 12px;
+        tr {
+            td {
+                padding: 4px;
+            }
+            td:first-child {
+                text-align: right;
+            }
+            td:last-child {
+                text-align: left;
+            }
+        }
+    }
+    &.row-table-intro,
+    &.row-table-rate,
+    &.row-table-gur {
+        td:first-child {
+            font-weight: bold;
+        }
+    }
+    &.row-table-activity {
+        padding: 8px;
+        td:first-child {
+            width: 60px;
+        }
+    }
+    &.row-table-intro,
+    &.row-table-find {
+        td:first-child {
+            width: 75px;
+        }
+    }
+    &.row-table-rate {
+        td:first-child {
+            width: 102px;
+        }
+    }
+    &.row-table-gur {
+        td:first-child {
+            width: 80px;
+        }
+    }
+    &.row-table-find {
+        border-bottom: 1px solid #dedede;
+    }
+}

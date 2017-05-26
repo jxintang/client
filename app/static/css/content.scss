@@ -1,0 +1,38 @@
+// @Author: tangjingxin <tangduck>
+// @Date:   04/07/2017
+// @Email:  jxintang@gmail.com
+// @Last modified by:   tangduck
+// @Last modified time: 04/18/2017
+
+.content-detail {
+    margin-top: 60px;
+    background-color: #fff;
+    .content-detail-head {
+        padding: 15px 15px 5px 15px;
+        border-bottom: 1px solid #dedede;
+        h3 {
+            margin: 0;
+            margin-bottom: 5px;
+            color: #4F4F4F;
+        }
+        h6 {
+            margin: 5px 0;
+            color: #666;
+            font-weight: normal;
+        }
+        .subtitle {
+            font-size: 12px;
+            color: #666;
+            padding-right: 10px;
+        }
+    }
+    .content-detail-content {
+        padding: 20px 15px;
+        p {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.5em;
+            margin: 0;
+        }
+    }
+}

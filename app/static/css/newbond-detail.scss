@@ -1,0 +1,81 @@
+// @Author: tangjingxin <tangduck>
+// @Date:   04/06/2017
+// @Email:  jxintang@gmail.com
+// @Last modified by:   tangduck
+// @Last modified time: 05/15/2017
+
+.newbond-detail-wrapper {
+    margin-top: 60px;
+    h3 {
+        font-size: 16px;
+        color: #4F4F4F;
+        padding: 10px 0;
+        margin: 0;
+        border-bottom: 1px solid #dedede;
+    }
+    .newbond-detail-head {
+        padding: 0 0 15px 15px;
+        background-color: #fff;
+        .rate-box {
+            padding-top: 20px;
+            text-align: center;
+            color: #AD2323;
+            font-size: 14px;
+            strong {
+                font-size: 30px;
+                font-weight: normal;
+            }
+            .title {
+                color: #666;
+                font-size: 12px;
+                margin-bottom: 10px;
+            }
+            .blue-tag {
+                display: inline-block;
+                background-color: #36AFEF;
+                color: #fff;
+                font-size: 14px;
+                padding: 3px 8px;
+                border-radius: 1px;
+                font-style: normal;
+            }
+        }
+    }
+    .newbond-detail-content {
+        margin-top: 10px;
+        background-color: #fff;
+    }
+    .newbond-detail-more,
+    .newbond-detail-contact {
+        margin-top: 10px;
+        padding-left: 15px;
+        background-color: #fff;
+    }
+    .newbond-detail-more {
+        .row-table {
+            td:first-child {
+                width: 86px;
+            }
+        }
+    }
+    .newbond-detail-contact {
+        margin: 10px 15px;
+        .row-table {
+            td:first-child {
+                width: 60px;
+            }
+        }
+    }
+    .contact-btn {
+        display: inline-block;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 49px;
+        line-height: 49px;
+        text-align: center;
+        color: #fff;
+        background-color: #36AFEF;
+    }
+}

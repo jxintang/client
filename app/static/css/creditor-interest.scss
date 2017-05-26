@@ -1,0 +1,96 @@
+// @Author: tangjingxin <tangduck>
+// @Date:   03/19/2017
+// @Email:  jxintang@gmail.com
+// @Last modified by:   tangduck
+// @Last modified time: 04/27/2017
+
+.creditor-interest {
+    background-color: #fff;
+    padding-bottom: 20px;
+    .creditor-interest-header {
+        text-align: right;
+        padding: 15px 0;
+        .item {
+            display: inline-block;
+            font-size: 12px;
+            color: #36AFEF;
+            padding: 0 15px;
+        }
+    }
+    .creditor-interest-content {
+        background-color: #fff;
+        font-size: 14px;
+        color: #4F4F4F;
+        padding: 5px 15px;
+        p {
+            line-height: 1.5em;
+            margin: 0;
+            &.two-indent {
+                text-indent: 2em;
+            }
+        }
+        font {
+            font-size: 14px !important;
+        }
+        .href {
+            color: #36AFEF;
+        }
+    }
+
+    div {
+        .online-service {
+            display: inline-block;
+            width: 56px;
+            height: 54px;
+            background: url(/static/images/online-service-icon@2x.png) no-repeat 0 0;
+            background-size: 56px 54px;
+        }
+        p {
+            color: #4F4F4F;
+            line-height: 26px;
+            margin: 0;
+        }
+    }
+}
+
+#iframe {
+    -ms-zoom: 0.75;
+    -moz-transform: scale(0.75);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(0.75);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(0.85);
+    // -webkit-transform-origin: 0 0;
+    font-size: 12px;
+}
+
+
+html, body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#container {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+}
+
+.pdf-context, .pdf-viewer {
+  position: relative;
+  width: 100%;
+}
+.pdf-viewer {
+  padding-top: 3em;
+  padding-bottom: 3em;
+  background: #3E3E3E
+}
+.pdf-page {
+  position: relative;
+  margin: 0 auto 3em auto;
+  padding: 0;
+  overflow: visible;
+  background-clip: content-box;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.54);
+  background-color: white;
+}

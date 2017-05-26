@@ -1,0 +1,142 @@
+// @Author: tangjingxin <tangduck>
+// @Date:   03/05/2017
+// @Email:  jxintang@gmail.com
+// @Last modified by:   tangduck
+// @Last modified time: 05/25/2017
+
+// .am-popup-wrap .am-popup-slide-down {
+//     top: 178.5px;
+// }
+.filter-bar {
+    // position: absolute;
+    // width: 100%;
+    // height: 100%;
+    // z-index: 999;
+    &.active {
+        position: fixed;
+        width: 100%;
+        height: 500px;
+        background-color: rgba(0,0,0,0.5);
+        z-index: 999;
+    }
+    nav {
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+        width: 100%;
+        .col {
+            float: left;
+            display: inline-block;
+            width: 25%;
+            padding: 14px 0;
+            background-color: #fff;
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+            i {
+                position: relative;
+                top: -2px;
+                display: inline-block;
+                margin-left: 4px;
+                width:0;
+                height:0;
+                border-left:5px solid transparent;
+                border-right:5px solid transparent;
+                border-top:5px solid #999;
+            }
+        }
+        .col.active {
+            span{
+                color: #ad2323;
+            }
+            i {
+                border-top: none;
+                border-bottom: 5px solid #ad2323;
+            }
+        }
+    }
+}
+
+.dialog-container {
+    .dialog-content {
+        background-color: #fff;
+    }
+    .dialog-footer {
+        background-color: #f6f6f6;
+        padding: 8px 15px;
+        .btn {
+            color: #666;
+        }
+        .dialog-btn {
+            display: inline-block;
+            padding: 6px 18px;
+            border: 1px solid #ccc;
+            border-radius: 1px;
+        }
+        .dialog-footer-left {
+            float: left;
+            width: 50%;
+            text-align: left;
+            .dialog-reset-btn {
+                color: #666;
+                font-size: 12px;
+            }
+        }
+        .dialog-footer-right {
+            float: left;
+            width: 50%;
+            text-align: right;
+            .dialog-confirm-btn {
+                color: #fff;
+                font-size: 12px;
+                background-color: #AD2323;
+                border-color: #AD2323;
+            }
+        }
+        .clearfix {
+            clear: both;
+        }
+    }
+    .mask {
+        z-index: 11;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(0,0,0,.5);
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.filter-wrapper-style {
+    border-top: 1px solid #dedede;
+    .rc-dialog {
+        margin: 0;
+        .rc-dialog-content {
+            border-radius: 0;
+            .rc-dialog-body {
+                padding: 0;
+            }
+        }
+    }
+
+    &.release-filter {
+        top: 156px;
+    }
+
+    &.issuer-filter {
+        top: 176px;
+    }
+
+    &.main-release-filter {
+        top: 90px;
+    }
+    &.company-filter {
+        top: 44px;
+    }
+
+    &.new-bond-dialog {
+        top: 90px;
+        left: 25px;
+        right: 25px;
+    }
+}

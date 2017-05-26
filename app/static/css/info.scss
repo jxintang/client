@@ -1,0 +1,46 @@
+// @Author: tangjingxin <jxintang>
+// @Date:   03/20/2017
+// @Email:  jxintang@gmail.com
+// @Last modified by:   jxintang
+// @Last modified time: 03/21/2017
+
+.middle-btn {
+    width: 78.125%;
+    margin: 0 auto;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    color: #fff;
+    border-radius: 1px;
+    background-color: #36AFEF;
+    font-size: 16px;
+}
+
+.info-report {
+    .report-header {
+        text-align: center;
+        font-size: 15px;
+        color: #4F4F4F;
+        padding: 15px 0;
+    }
+    .report-list {
+        background-color: #fff;
+        .report-item {
+            padding: 15px 0;
+            text-align: center;
+            font-size: 12px;
+            border-bottom: 1px solid #DEDEDE;
+            &:last-child {
+                border-bottom: none;
+            }
+            .category {
+                font-size: 15px;
+                color: #666;
+                margin-bottom: 8px;
+            }
+            a {
+                color: #36AFEF;
+            }
+        }
+    }
+}

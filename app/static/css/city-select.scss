@@ -1,0 +1,198 @@
+// @Author: tangjingxin <tangduck>
+// @Date:   03/07/2017
+// @Email:  jxintang@gmail.com
+// @Last modified by:   tangduck
+// @Last modified time: 05/25/2017
+
+textarea, input, button, canvas, ul, li, label {
+    -webkit-appearance:none;
+    outline: none;
+}
+:focus {
+    outline-color: transparent;
+    outline: 0;
+}
+.city-select {
+    .scroll-area {
+        position: relative;
+        background-color: #f6f6f6;
+    }
+    .left {
+        float: left;
+        width: 50%;
+        height: 200px;
+    }
+    .right {
+        float: left;
+        width: 50%;
+        height: 200px;
+        background-color: #fff;
+    }
+    ul {
+        position:relative;
+        top: 0;
+        margin: 0;
+        padding: 0;
+        li {
+            // -ms-touch-action: manipulation;
+            touch-action: none;
+            display: inline-block;
+            width: 100%;
+            padding-left: 15px;
+            text-align: left;
+            height: 40px;
+            line-height: 40px;
+            font-size: 14px;
+            color: #666;
+            .check-box {
+                display: inline-block;
+                width: 15px;
+                height: 15px;
+                border-radius: 2px;
+                border: 1px solid #ccc;
+                margin: 0 5px 2px 0;
+                vertical-align: top;
+                position: relative;
+                top: 11px;
+            }
+
+            label {
+                // display: inline-block;
+                // vertical-align: middle;
+                // margin: 5px;
+                // cursor: pointer;
+            }
+
+            label {
+                display: inline-block;
+                width: 98px;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap;
+            }
+
+            .check-box + label:before{
+            }
+            &.active label:before {
+                // content: "√";
+                // font-family: 'FontAwesome';
+                // background: #AD2323;
+                // color: #fff;
+            }
+            &.active {
+                .check-box {
+                    border: 1px solid #AD2323;
+                    background: #AD2323 url(/static/images/selected-icon@2x.png) no-repeat center center;
+                    background-size: 10px 7px;
+                }
+            }
+        }
+    }
+    &.only-city-select-list {
+        .left{
+            ul {
+                li:first-child,
+                li:nth-child(2),
+                li:nth-last-child(-n+2) {
+                    color: #f6f6f6;
+                }
+            }
+        }
+    }
+    .clear {
+        clear: both;
+    }
+    .mirror {
+        width: 50%;
+        color: #666;
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+        height: 40px;
+        position: absolute;
+        top: 80px;
+        background-color: #fff;
+    }
+    .show-area {
+        text-align: center;
+        padding: 10px 0;
+        color: #999;
+        background-color: #fff;
+        .selected-city-list {
+            margin-top: 10px;
+            line-height: 24px;
+            color: #666;
+        }
+    }
+}
+
+.bond-select {
+    .scroll-area {
+        position: relative;
+        background-color: #fff;
+    }
+    .title {
+        margin-top: 15px;
+        margin-bottom: 10px;
+        padding-left: 2.34375%;
+        font-size: 14px;
+        color: #666;
+        text-align: left;
+    }
+    .left {
+        height: 248px;
+        float: left;
+        width: 27%;
+    }
+    .right {
+        height: 248px;
+        float: left;
+        width: 73%;
+        ul {
+            position: relative;
+            left: -1px;
+            li {
+                border-left: 1px solid #dedede;
+            }
+        }
+    }
+    .clear {
+        clear: both;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        border-top: 1px solid #dedede;
+        li {
+            color: #666;
+            list-style: none;
+            height: 40px;
+            line-height: 40px;
+            border-bottom: 1px solid #dedede;
+            border-right: 1px solid #dedede;
+            .check-box {
+                margin-left: 15px;
+                display: inline-block;
+                width: 15px;
+                height: 15px;
+                border-radius: 2px;
+                border: 1px solid #ccc;
+                vertical-align: middle;
+                margin: 0 5px 2px 15px;
+            }
+            span {
+                display: inline-block;
+                width: 100%;
+                margin-left: 15px;
+            }
+            &.active {
+                color: #BD362E;
+                background-color: #F6F6F6;
+                .check-box {
+                    border: 1px solid #AD2323;
+                    background: #AD2323 url(/static/images/selected-icon@2x.png) no-repeat center center;
+                    background-size: 10px 7px;
+                }
+            }
+        }
+    }
+}

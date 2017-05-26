@@ -1,0 +1,65 @@
+.creditor-result-group {
+    padding-left: 15px;
+    font-size: 12px;
+    color: #666;
+    background-color: #fff;
+    .group-table {
+        width: 100%;
+        border-bottom: 1px solid #DEDEDE;
+        td {
+            padding: 4px 0;
+            padding-right: 15px;
+        }
+        td:last-child {
+            text-align: right;
+        }
+        td:first-child {
+            text-align: left;
+        }
+    }
+    .creditor-result-item {
+        position: relative;
+        padding: 10px 0;
+        border-bottom: 1px solid #DEDEDE;
+        table {
+            width: 60%;
+            tbody {
+                td {
+                    padding: 4px 0;
+                }
+                td:last-child {
+                    text-align: left;
+                }
+                td:first-child {
+                    text-align: right;
+                }
+            }
+        }
+        .button {
+            position: absolute;
+            top: 50%;
+            right: 15px;
+            margin-top: -14px;
+            border-radius: 2px;
+            display: inline-block;
+            background-color: #AD2323;
+            padding: 6px 20px;
+            color: #fff;
+        }
+    }
+    .creditor-result-item:last-child {
+        border-bottom: none;
+    }
+}
+
+.search-area {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    .search-btn {
+        border-radius: 1px;
+        border: 1px solid #AD2323;
+        padding: 6px 25px;
+        color: #AD2323;
+    }
+}

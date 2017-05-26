@@ -1,0 +1,31 @@
+// @Author: tangjingxin <tangduck>
+// @Date:   03/22/2017
+// @Email:  jxintang@gmail.com
+// @Last modified by:   tangduck
+// @Last modified time: 03/22/2017
+
+.footer-tabs {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #FFFFFF;
+    box-shadow: 0 -4px 4px 0 rgba(159,159,159,0.15), inset 0 1px 0 0 #CCCCCC;
+    padding: 15px 0;
+    .tab-item {
+        color: #666;
+        font-size: 14px;
+        display: inline-block;
+        width: 50%;
+        text-align: center;
+        .tab-item-inner {
+            border-right: 1px solid #666;
+        }
+        &:last-child {
+            .tab-item-inner {border-right: none;}
+        }
+        &.selected {
+            color: #AD2323;
+        }
+    }
+}

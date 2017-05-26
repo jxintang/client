@@ -1,0 +1,92 @@
+// @Author: tangjingxin <tangduck>
+// @Date:   04/06/2017
+// @Email:  jxintang@gmail.com
+// @Last modified by:   tangduck
+// @Last modified time: 05/25/2017
+
+.activity-detail-wrapper {
+    margin-bottom: 44px;
+    .activity-detail-top {
+        padding: 0 0 15px 15px;
+        background-color: #fff;
+        h3 {
+            padding: 10px 0;
+            font-size: 16px;
+            color: #4F4F4F;
+            margin: 0;
+            border-bottom: 1px solid #dedede;
+        }
+        .tag {
+            margin-top: 10px;
+            display: inline-block;
+            padding: 3px 10px;
+            border: 1px solid #AD2323;
+            color: #AD2323;
+            font-size: 14px;
+            border-radius: 2px;
+        }
+        .row-table {
+            margin-top: 10px;
+            td {
+                padding: 4px 0;
+            }
+            td:first-child {
+                width: 60px;
+                text-align: left;
+            }
+        }
+    }
+    .more {
+        color: #888;
+        padding: 5px;
+        padding-left:.3rem;
+        margin: 0;
+        background-color: #fff;
+    }
+    .contact-wrapper {
+        position: relative;
+        margin: 10px 15px;
+        background-color: #fff;
+        h3 {
+            margin: 0;
+            padding: 10px 15px;
+            color: #4F4F4F;
+            font-size: 14px;
+            border-bottom: 1px solid #dedede;
+        }
+        .row-table {
+            padding-left: 10px;
+            td:first-child {
+                width: 60px;
+                text-align: left;
+            }
+        }
+        .contact-wrapper-mask {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, .26);
+        }
+        button {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin-top: -12px;
+            padding: 6px 16px;
+            color: #fff;
+            font-size: 12px;
+            border: none;
+            border-radius: 1px;
+            &.apply-btn {
+                background-color: #AD2323;
+                margin-left: -28px;
+            }
+            &.gray-btn {
+                margin-left: -52px;
+                background-color: gray;
+            }
+        }
+    }
+}

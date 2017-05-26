@@ -1,0 +1,43 @@
+// @Author: tangjingxin <tangduck>
+// @Date:   04/14/2017
+// @Email:  jxintang@gmail.com
+// @Last modified by:   tangduck
+// @Last modified time: 04/14/2017
+
+.bond-table-item {
+    display: block;
+    padding: 10px 0;
+    padding-left: 10px;
+    border-top: 1px solid #DEDEDE;
+    background-color: #fff;
+    color: #666;
+    font-size: 12px;
+    .result-item-row {
+        padding-right: 15px;
+        table {
+            float: left;
+            tr td {
+                text-align: left;
+            }
+            tr td:first-child {
+                text-align: right;
+            }
+        }
+        .fr {
+            float: right;
+        }
+        .follow-btn {
+            transform: translateY(50%);
+            border: none;
+            width: 68px;
+            text-align: center;
+            padding: 0;
+            background-color: #AD2323;
+            border-radius: 2px;
+            font-size: 12px;
+            height: 29px;
+            line-height: 29px;
+            color: #fff;
+        }
+    }
+}

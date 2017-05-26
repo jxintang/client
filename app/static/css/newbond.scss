@@ -1,0 +1,44 @@
+// @Author: tangjingxin <tangduck>
+// @Date:   04/07/2017
+// @Email:  jxintang@gmail.com
+// @Last modified by:   tangduck
+// @Last modified time: 04/07/2017
+
+.newbond-popup {
+    height: 210px;
+    background-color: #fff;
+    text-align: center;
+    .columns {
+        display: block;
+        padding: 45px 0 40px;
+        width: 33.33%;
+        float: left;
+        text-align: center;
+        color: #666;
+        h6 {
+            font-weight: normal;
+            margin: 10px 0 0 0;
+            font-size: 14px;
+        }
+    }
+    i {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+    }
+    .newbond-publish-icon {
+        background: url(/static/images/newbond-publish-icon@2x.png) 0 0 / 50px 50px no-repeat;
+    }
+    .activity-publish-icon {
+        background: url(/static/images/activity-publish-icon@2x.png) 0 0 / 50px 50px no-repeat;
+    }
+    .company-publicity-icon {
+        background: url(/static/images/company-publicity-icon@2x.png) 0 0 / 50px 50px no-repeat;
+    }
+    .popup-close-icon {
+        margin: 0 auto;
+        height: 40px;
+        width: 40px;
+        background: url(/static/images/popup-close-icon@2x.png) center center / 12px 12px no-repeat;
+    }
+}

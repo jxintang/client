@@ -1,0 +1,25 @@
+// @Author: tangjingxin <tangduck>
+// @Date:   03/23/2017
+// @Email:  jxintang@gmail.com
+// @Last modified by:   tangduck
+// @Last modified time: 03/23/2017
+
+.filter-card {
+    margin-top: 10px;;
+    padding: 15px 0;
+    text-align: center;
+    color: #4F4F4F;
+    font-size: 14px;
+    text-align: center;
+    background-color: #fff;
+    .content {
+        margin-bottom: 10px;
+    }
+    .search-btn {
+        display: inline-block;
+        padding: 6px 26px;
+        border: 1px solid #AD2323;
+        color: #AD2323;
+        font-size: 12px;
+    }
+}

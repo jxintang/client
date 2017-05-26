@@ -1,0 +1,44 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true
+    },
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "indent": [
+            "error",
+            4,
+            {
+                "SwitchCase": 1
+            }
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+	"no-undef": ["error"],
+    	"no-magic-numbers": ["error", {
+   	     "ignoreArrayIndexes": true,
+             "ignore": [-1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 100, 400, 401, 403, 404, 500]
+        }]
+    },
+    "globals": {
+        "__DEV__": true,
+        "__APP__": true,
+        "__ANDROID__": true,
+        "__IOS__": true,
+	"$": true,
+	"process": true,
+	"__dirname": true
+    }
+}

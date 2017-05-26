@@ -1,0 +1,108 @@
+// @Author: tangjingxin <tangduck>
+// @Date:   03/23/2017
+// @Email:  jxintang@gmail.com
+// @Last modified by:   tangduck
+// @Last modified time: 04/26/2017
+
+.calendar-box {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    box-direction:reverse;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    padding-right: 15px;
+    background-color: #fff;
+    .calendar-item {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-flex: 1 0 auto;
+        -webkit-flex: 1 0 auto;
+        -ms-flex: 1 0 auto;
+        flex: 1 0 auto;
+        padding-left: 15px;
+        table {
+            width: 100%;
+            margin: 0 auto;
+            font-size: 12px;
+            thead {
+                tr {
+                    td {
+                        text-align: left;
+                        font-size: 14px;
+                        color: #AD2323;
+                        padding: 15px 0 5px;
+                    }
+                }
+            }
+            tbody {
+                tr {
+                    border: none;
+                    padding: 0;
+                    margin: 0;
+                    td {
+                        padding: 0;
+                        margin: 0;
+                        border: none;
+                        font-size: 12px;
+                        color: #666;
+                        text-align: center;
+                        div {
+                            width: 12px;
+                            height: 12px;
+                            &.circle {
+                                border-radius: 50%;
+                                color: #fff;
+                                background-color: #AD2323;
+                                line-height: 12px;
+                                &.green {
+                                    background-color: #36AFEF;
+                                }
+                                &.empty {
+                                    background-color: #fff;
+                                    border: 1px solid #36AFEF;
+                                    color: #666;
+                                }
+                            }
+                            span {
+                                display: inline-block;
+                                font-size: 12px;
+                                transform: scale(.667);
+                            }
+                        }
+                        i.dot {
+                            display: block;
+                            width: 4px;
+                            height: 4px;
+                            border-radius: 50%;
+                            margin: 1px auto 0;
+                            background-color: #999;
+                            &.white {
+                                background-color: transparent;
+                            }
+                        }
+                        i.line {
+                            display: block;
+                            width: 10px;
+                            height: 1px;
+                            margin: 1px auto 0;
+                            background-color: #AD2323;
+                            &.white {
+                                background-color: transparent;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
